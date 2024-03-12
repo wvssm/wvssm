@@ -1,10 +1,10 @@
 ```bash
 wvssm
 ├─ backend
-│  ├─ JavaScript     
-│  ├─ Express.js
-│  ├─ MariaDB
+│  ├─ Django     
+│  ├─ Python
 │  ├─ Java
+│  ├─ PostgreSQL
 │  └─ MySQL    
 ├─ etc         
 │  ├─ Algorithm  
