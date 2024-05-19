@@ -4,7 +4,6 @@ wvssm
 │  ├─ Django     
 │  ├─ Python
 │  ├─ Java
-│  ├─ PostgreSQL
 │  └─ MySQL    
 ├─ etc         
 │  ├─ Algorithm  
