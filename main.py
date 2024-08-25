@@ -1,6 +1,6 @@
 import feedparser
 import time
-URL="https://wvssm.tistory.com/" # URL = "내블로그 주소/rss"
+URL="https://wvssm.tistory.com/rss" # URL = "내블로그 주소/rss"
 RSS_FEED = feedparser.parse(URL)
 MAX_POST = 5
 
@@ -27,7 +27,7 @@ wvssm
 
 ```  
 
-## ✅ Latest Tistory Posting<div class=blog-post text-align='left'>
+## Latest Tistory Posting<div class=blog-post text-align='left'>
 """
 
 for idx, feed in enumerate(RSS_FEED['entries']):
