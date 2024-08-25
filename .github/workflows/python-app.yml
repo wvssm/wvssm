@@ -33,8 +33,11 @@ jobs:
       run: |
         git pull
         git add .
-        git diff
-        git config --local user.email "neoramiregi@gmail.com"
-        git config --local user.name "wvssm"
-        git commit -m "Update README.md"
-        git push
+        if ! git diff-index --quiet HEAD --; then
+          git config --local user.email "neoramiregi@gmail.com"
+          git config --local user.name "wvssm"
+          git commit -m "Update README.md"
+          git push
+        else
+          echo "No changes to commit"
+        fi
