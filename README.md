@@ -2,19 +2,15 @@
 ```bash
 wvssm
 ├─ backend
-│  ├─ Django     
-│  ├─ Python
+│  ├─ Spring_Boot     
 │  ├─ Java
-│  └─ MySQL    
-│  ├─ Springboot     
-│  └─ Java
+│  ├─ H2
+│  └─ MySQL  
 ├─ etc         
 │  ├─ Algorithm  
 │  ├─ Blog
 │  └─ Computer_Science   
-└─ learning..
-   ├─ Springboot     
-   └─ Docker           
+└─ learning..       
    ├─ Docker
    └─ Kubernetes           
 
