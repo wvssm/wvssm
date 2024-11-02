@@ -11,7 +11,6 @@ wvssm
 ├─ backend
 │  ├─ Spring_Boot     
 │  ├─ Java
-│  ├─ H2
 │  └─ MySQL  
 ├─ etc         
 │  ├─ Algorithm  
